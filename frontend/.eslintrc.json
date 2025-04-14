@@ -1,0 +1,8 @@
+{
+    "root": true,
+    "extends": ["react-app"],
+    "rules": {
+      // 他のルール設定が必要な場合のみ記述
+    }
+  }
+  
