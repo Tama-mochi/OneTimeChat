@@ -18,7 +18,7 @@ app.use(cors());
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
-const SESSION_TTL = 72 * 60 * 60 * 1000; // 72時間（ミリ秒）
+const SESSION_TTL = 24 * 60 * 60 * 1000; // 24時間（ミリ秒）
 
 // チャットメッセージおよびセッションの型定義
 interface ChatMessage {
